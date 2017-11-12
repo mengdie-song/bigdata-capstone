@@ -14,28 +14,23 @@ There is a Kaggle dataset https://www.kaggle.com/jessevent/all-crypto-currencies
 Make a data product for Cryptocurrency and conduct some analysis for it.
 
 ### Technical Skills
-* Spark and machine learning related skills
-* No SQL database usage like Cassandra
-* d3.js to show the result in graph
-* others to be appended 
+* Data Transportation: Kafka
+* Data Computation: Spark
+* Data Storage: Cassandra
+* Data Coordination: Zookeeper
 
-## Tasks and Time line
-### Get The DataSet and Format them
-* Python to do some formmating taks
-* 9/1-9/7
-### Store the data into database and to spark
-* choose proper database
-* store the data into database
-* use spark to to get data input
-* 9/8-9/14
-### Use Spark and MLlib to analyze
-* learn MLlib usage
-* choose proper algorithm
-* do data analysisis
-* 9/15-9/21
-### show Result in graph
-* Learn D3.js
-* do data visualization
-* prepare for demo
-* 9/22-9/30
+## Tasks
+### Choose the Topic and design the pipeline
+* The pipe includes : Kafka Spark Cassandra Zookeeper
+### Use Kafka to transport data
+* The data is stored in csv
+* Read the data to Kafka
+* Simulate the real-time tranportation
+### Use Spark to analyze data
+* Use Pyspark
+* Use RDD computation
+* Use Spark Streaming to inject the computation results to the kafka
+### show Cassandra to store data
+* Use Cassandra to store data
+* Only Store the results we are interested in
 
